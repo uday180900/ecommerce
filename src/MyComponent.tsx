@@ -7,7 +7,7 @@ type Product = {
 export const MyComponent = ({ products }: { products: Product[] }) => {
   return (
     <div>
-      <h2>Product Listsssss</h2>
+      <h2>Header</h2>
       <ul>
         {products.map((p) => (
           <li key={p.id}>
