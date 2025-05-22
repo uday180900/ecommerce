@@ -7,7 +7,7 @@ interface Product {
 export const MyComponent = ({ products }: { products: Product[] }) => {
   return (
     <div>
-      <h2>Products</h2>
+      <h2>Product List</h2>
       <ul>
         {products.map((p) => (
           <li key={p.id}>
